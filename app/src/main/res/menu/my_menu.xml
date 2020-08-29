@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ExportData"
+        android:icon="@drawable/ic_storage_black_24dp"
+        android:title="@string/export_data" />
+    <item
+        android:id="@+id/AddMaster"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/add_master" />
+
+    <item
+        android:id="@+id/EditMaster"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/edit_master" />
+    <item
+        android:id="@+id/AddDean"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/add_dean" />
+    <item
+        android:id="@+id/EditDean"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/edit_dean" />
+    <item
+        android:id="@+id/DeleteDean"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/delete_dean" />
+
+    <item
+        android:id="@+id/AddTeacher"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/add_teacher" />
+    <item
+        android:id="@+id/EditTeacher"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/edit_teacher" />
+    <item
+        android:id="@+id/DeleteTeacher"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/delete_teacher" />
+
+    <item
+        android:id="@+id/AddStudent"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/add_student" />
+    <item
+        android:id="@+id/EditStudent"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/edit_student" />
+    <item
+        android:id="@+id/AddSchool"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/add_school" />
+    <item
+        android:id="@+id/DeleteSchool"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/delete_school" />
+    <item
+        android:id="@+id/AddDepartment"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/add_department" />
+    <item
+        android:id="@+id/DeleteDepartment"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/delete_department" />
+    <item
+        android:id="@+id/AddYears"
+        android:icon="@drawable/ic_query_builder_black_24dp"
+        android:title="@string/add_year" />
+    <item
+        android:id="@+id/DeleteYear"
+        android:icon="@drawable/ic_query_builder_black_24dp"
+        android:title="@string/delete_year" />
+    <item
+        android:id="@+id/AddClasses"
+        android:icon="@drawable/ic_folder_black_24dp"
+        android:title="@string/add_classes" />
+    <item
+        android:id="@+id/DeleteClasses"
+        android:icon="@drawable/ic_folder_black_24dp"
+        android:title="@string/delete_classes" />
+
+    <item
+        android:id="@+id/AddGroups"
+        android:icon="@drawable/ic_folder_open_black_24dp"
+        android:title="@string/add_groups" />
+
+    <item
+        android:id="@+id/DeleteGroups"
+        android:icon="@drawable/ic_folder_open_black_24dp"
+        android:title="@string/delete_groups"/>
+
+    <item
+        android:id="@+id/AddSubjects"
+        android:icon="@drawable/ic_storage_black_24dp"
+        android:title="@string/add_subjects" />
+    <item
+        android:id="@+id/EditSubjects"
+        android:icon="@drawable/ic_storage_black_24dp"
+        android:title="@string/edit_subjects" />
+
+    <item
+        android:id="@+id/DeleteSubjects"
+        android:icon="@drawable/ic_storage_black_24dp"
+        android:title="@string/delete_subjects" />
+
+    <item
+        android:id="@+id/AddTimings"
+        android:icon="@drawable/ic_watch_later_black_24dp"
+        android:title="@string/add_timings" />
+
+    <item
+        android:id="@+id/DeleteTimings"
+        android:icon="@drawable/ic_watch_later_black_24dp"
+        android:title="@string/delete_timings" />
+
+    <item
+        android:id="@+id/AddPeriods"
+        android:icon="@drawable/ic_watch_later_black_24dp"
+        android:title="@string/add_periods" />
+
+    <item
+        android:id="@+id/DeletePeriods"
+        android:icon="@drawable/ic_watch_later_black_24dp"
+        android:title="@string/delete_periods" />
+    <item
+        android:id="@+id/AddDays"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="@string/add_days" />
+
+    <item
+        android:id="@+id/DeleteDays"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="@string/delete_days" />
+    <item
+        android:id="@+id/AddTimeTable"
+        android:icon="@drawable/ic_insert_invitation_black_24dp"
+        android:title="@string/add_timetable" />
+    <item
+        android:id="@+id/EditTimeTable"
+        android:icon="@drawable/ic_insert_invitation_black_24dp"
+        android:title="@string/edit_timetable" />
+    <item
+        android:id="@+id/DeleteTimeTable"
+        android:icon="@drawable/ic_insert_invitation_black_24dp"
+        android:title="@string/delete_timetable" />
+    <item
+        android:id="@+id/ChangePass"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="@string/change_password" />
+    <item
+        android:id="@+id/LogOut"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="@string/logout" />
+</menu>

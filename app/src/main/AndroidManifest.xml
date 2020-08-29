@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hvtechnologies.shardaapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="com.google.android.gms.version"
+        android:value="10298000" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Export_Data"
+            android:parentActivityName=".Admin_Activity" />
+        <activity
+            android:name=".Student_Assignment_Particular2"
+            android:parentActivityName=".Student_Assignment_Activity2" />
+        <activity
+            android:name=".Student_Assignment_Particular1"
+            android:parentActivityName=".Student_Assignment_Activity1" />
+        <activity
+            android:name=".Student_Particular_Sub_Marksheet_Activity"
+            android:parentActivityName=".Student_Marks_Activity" />
+        <activity
+            android:name=".Student_Particulat_Sub_Attendance_Activity"
+            android:parentActivityName=".Student_Att_Activity" />
+        <activity
+            android:name=".Student_View_Notices"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".Student_Assignment_Activity2"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".Student_Assignment_Activity1"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".Student_Marks_Activity"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".Student_Att_Activity"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".Teacher_Activity_Add_Assignment"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity
+            android:name=".Dean_Activity_Check_Att_Today"
+            android:parentActivityName=".Dean_Activity" />
+        <activity
+            android:name=".Dean_Check_TT"
+            android:parentActivityName=".Dean_Activity" />
+        <activity
+            android:name=".Dean_AllTT"
+            android:parentActivityName=".Dean_Activity" />
+        <activity
+            android:name=".Student_All_TT"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".Teacher_All_TT"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity
+            android:name=".Admin_Activity_Add_Dean"
+            android:parentActivityName=".Admin_Activity" />
+        <activity
+            android:name=".Teacher_Activity_View_Marksheets2"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity
+            android:name=".Teacher_Activity_View_Attendance2"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity android:name=".Dean_Activity" />
+        <activity
+            android:name=".Teacher_Activity_View_Marksheet"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity
+            android:name=".Teacher_Activity_Add_Marksheet"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity
+            android:name=".Teacher_Activity_View_Attendance"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity
+            android:name=".Teacher_Activity_Add_Attendance"
+            android:parentActivityName=".Teacher_Activity" />
+        <activity
+            android:name=".CreateTimeTable"
+            android:parentActivityName=".Admin_Activity" />
+        <activity
+            android:name=".Admin_Activity_Add_Teacher"
+            android:parentActivityName=".Admin_Activity" />
+        <activity
+            android:name=".Admin_Activity_Add_Student"
+            android:parentActivityName=".Admin_Activity" />
+        <activity android:name=".Master_Activity" />
+        <activity android:name=".Teacher_Activity" />
+        <activity android:name=".Admin_Activity" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <padding
+                        android:left="8dp"
+                        android:right="8dp"
+                        />
+                    <gradient
+                        android:startColor="@color/colorbl"
+                        android:endColor="@color/colorbl"
+                        android:angle="270" />
+                    <corners
+                        android:radius="8dp" />
+                </shape>
+            </item>
+            <item>
+                <bitmap android:src="@android:drawable/arrow_down_float" android:gravity="right|center" android:tint="@color/backgroundcolorcardview">
+                    <padding android:right="8dp" />
+                </bitmap>
+
+            </item>
+        </layer-list>
+    </item>
+</selector>

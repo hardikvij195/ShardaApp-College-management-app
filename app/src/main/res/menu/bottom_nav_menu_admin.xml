@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/NoticeAdmin"
+        android:icon="@drawable/outline_perm_contact_calendar_white_24"
+        android:title="@string/notice" />
+    <item
+        android:id="@+id/AttAdmin"
+        android:icon="@drawable/outline_perm_identity_white_24"
+        android:title="@string/attendance" />
+
+    <item
+        android:id="@+id/HomeAdmin"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/MarksheetAdmin"
+        android:icon="@drawable/outline_bar_chart_white_24"
+        android:title="@string/marksheets" />
+
+    <item
+        android:id="@+id/AssignmentsAdmin"
+        android:icon="@drawable/outline_description_white_24"
+        android:title="@string/assignments" />
+
+
+</menu>

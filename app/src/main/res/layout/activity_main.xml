@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorbl"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/image_logo2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sh8" />
+
+
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/shardaname"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image_logo2"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rely1"
+            android:animateLayoutChanges="true"
+            android:visibility="gone"
+            android:layout_below="@+id/image_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <LinearLayout
+                android:id="@+id/linelay1"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/NameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/backgroundcolorcardview"
+                        android:textColorHint="@color/backgroundcolorcardview"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="@color/backgroundcolorcardview">
+
+                        <android.support.design.widget.TextInputEditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/backgroundcolorcardview"
+                            android:textColorHint="@color/backgroundcolorcardview"
+                            android:theme="@style/TextLabel"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <android.support.design.widget.TextInputLayout
+
+                        android:id="@+id/PassText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/backgroundcolorcardview"
+                        android:textColorHint="@color/backgroundcolorcardview"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="@color/backgroundcolorcardview">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:textColor="@color/backgroundcolorcardview"
+                            android:textColorHint="@color/backgroundcolorcardview"
+                            android:theme="@style/TextLabel" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/LoginActBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_states3"
+                android:text="LOGIN"
+                android:textColor="@color/colorbl"
+                android:layout_below="@+id/linelay1"/>
+
+            <TextView
+                android:id="@+id/ForgotPasswordTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LoginActBtn"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:text="Forgot Password ?"
+                android:textColor="@color/backgroundcolorcardview"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+

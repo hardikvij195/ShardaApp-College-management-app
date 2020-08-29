@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777868103006",
+    "firebase_url": "https://shardaapp-7ea48.firebaseio.com",
+    "project_id": "shardaapp-7ea48",
+    "storage_bucket": "shardaapp-7ea48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777868103006:android:4ffb4696185ff70f4ad3cf",
+        "android_client_info": {
+          "package_name": "com.hvtechnologies.shardaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777868103006-m98lnathfj0maqs1tmrd0ck87t3r011r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hvtechnologies.shardaapp",
+            "certificate_hash": "6a5db15e749557314e6166d95e0bbd20c52a9f99"
+          }
+        },
+        {
+          "client_id": "777868103006-r3m2f7vggb762hu1ke374mheneq91256.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDno4iseOQ858vIgINY_kl53h5lP7e3b_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777868103006-r3m2f7vggb762hu1ke374mheneq91256.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
